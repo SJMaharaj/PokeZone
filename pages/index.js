@@ -20,7 +20,7 @@ export default function Home({ initialPokemon }) {
 
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center pt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center w-8/12">
           {pokemon.results.map((monster, index) => {
             return (
