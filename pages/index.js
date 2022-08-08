@@ -6,8 +6,6 @@ export default function Home({ initialPokemon }) {
   const [range, setRange] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
 
-  console.log(range);
-
   const fetchPokemon = async (url, next) => {
     setIsLoading(true);
     try {

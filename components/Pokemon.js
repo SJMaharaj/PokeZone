@@ -14,7 +14,7 @@ const Pokemon = (props) => {
             height={150}
             layout="fixed"
             src={`http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokeID}.png`}
-            className=" bg-gray-200 rounded-t shadow-md"
+            className=" bg-slate-200 rounded-t shadow-md"
           />
           <span className="absolute h-5 w-10 rounded-full bg-sky-500 top-2.5 right-0  text-xs font-semibold flex items-center justify-center">
             {hashID}

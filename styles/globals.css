@@ -4,6 +4,91 @@
 
 @layer base {
   body {
-    @apply bg-gray-900 text-white;
+    @apply text-white font-mono bg-gradient-to-t from-rose-400 via-fuchsia-500 to-indigo-500;
   }
+}
+
+.grass {
+  background-color: rgb(38, 235, 90);
+}
+
+.fire {
+  background-color: rgb(235, 71, 38);
+}
+
+.water {
+  background-color: rgb(38, 186, 235);
+}
+
+.electric {
+  background-color: rgb(235, 209, 38);
+}
+
+.ice {
+  background-color: rgb(38, 219, 235);
+}
+
+.fighting {
+  background-color: rgb(235, 104, 38);
+}
+
+.poison {
+  background-color: rgb(176, 38, 235);
+}
+.ground {
+  background-color: rgb(181, 131, 92);
+}
+
+.flying {
+  background-color: rgb(161, 215, 230);
+}
+
+.psychic {
+  background-color: rgb(219, 77, 207);
+}
+
+.ghost {
+  background-color: rgb(131, 24, 133);
+}
+
+.bug {
+  background-color: rgb(113, 209, 10);
+}
+
+.rock {
+  background-color: rgb(166, 87, 8);
+}
+
+.dragon {
+  background-color: rgb(50, 24, 217);
+}
+
+.normal {
+  background-color: rgb(168, 162, 157);
+}
+
+.fairy {
+  background-color: rgb(255, 148, 191);
+}
+.steel {
+  background-color: rgb(112, 112, 112);
+}
+.dark {
+  background-color: rgb(56, 51, 53);
+}
+
+.tier1 {
+  background-color: rgb(225, 0, 0);
+}
+.tier2 {
+  background-color: rgb(236, 138, 0);
+}
+.tier3 {
+  background-color: rgb(217, 217, 0);
+}
+.tier4 {
+  background-color: rgb(29, 215, 0);
+}
+.tier5 {
+  background-color: rgb(0, 201, 211);
 }
